@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Music Library</title>
+</head>
+<body>
+    <header><h1>Music Library - PG Intro</h1></header>
+    <main>
+        <section>
+            <h2>Add New Music</h2>
+            <form>
+                <label>Track:</label>
+                <input id="track-in" type="text" size="40" />
+                <label>Artist:</label>
+                <input id="artist-in" type="text" size="40" />
+                <label>Rank:</label>
+                <input id="rank-in" type="number" size="4" />
+                <label>Published:</label>
+                <input id="publish-in" type="date"/>
+                <button id="submit">Submit</button>
+            </form>
+        </section>
+        <section>
+            <h2>All Music</h2>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Track</th>
+                        <th>Artist</th>
+                        <th>Published</th>
+                        <th>Rank</th>
+                    </tr>
+                </thead>
+                <tbody id="music">
+                    <!-- jQuery will fill this in later -->
+                </tbody>
+            </table>
+        </section>
+    </main>
+</body>
+</html>
